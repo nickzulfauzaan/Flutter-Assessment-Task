@@ -8,6 +8,7 @@ How to set up and run the app:
 - Run 'flutter pub get' command in the terminal.
 - Replace 'YOUR_TOKEN' with the actual token in the api_services.dart file (lib/app/data/services).
 - When entering phone number during registration, need to include the country code at the beginning (example: 0178707714 ---> 60178707714).
+- The OTP code can be accessed at the debug console.
 - For the Sign In Screen: that prompts users to enter their phone number, I replace it with email since the api only accepts email as identifier.
 - To log out navigate to the profile page by tapping the profile icon at the top left of the home screen.
 
